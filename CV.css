@@ -1,0 +1,157 @@
+
+/*Para los colores use una pagina llamada Coolors , y fui generando paletas hasta elegir las siguientes*/
+
+body{
+        margin: 0%;
+        margin-bottom: 50px;
+        padding: 0%;
+        background-color: #FEFAE0;
+}
+
+#Nombre{
+        width: 100%;
+        height: 300px;
+        background-color: #CCD5AE;
+        text-align: center; 
+}
+
+#Nombre #Imagen{
+        position: absolute;
+        top: 1%;
+        right: 10%;
+        width: 280px;
+        height: 280px;
+        border-radius: 100%;
+        overflow: hidden;        
+}
+
+#Nombre #Imagen img{
+        width: 280px;
+        height: 280px;
+}
+
+
+#Nombre #name{
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 25%;
+}
+
+#Nombre #name #p-1{
+        font-size: 60px;
+        color: white;
+        font-weight: bold;
+        padding: 30px;
+}
+#Nombre #name #p-2{
+        font-weight: lighter;
+        font-size: 30px;
+        padding: top 20px; 
+        color: white;
+}
+
+#Informacion{
+        
+        margin-top: 40px;
+        margin-left: 5%;
+        margin-right:5%;
+        height: auto;
+        background-color: #E9EDC9;
+        border-radius: 20px;
+        padding: 5px;
+}
+
+#Informacion #infopersonal{
+        text-align: center;
+        font-size: xx-large;
+        border-bottom: 2px black solid;
+        font-weight: bolder;       
+}
+
+#Informacion #infoinfo{
+        font-size: large;
+        font-weight: bold;
+        color: white;
+        display: inline;
+        padding: 10px;
+}
+
+#Informacion #datos{        
+        font-size: large;
+        font-weight: bold;
+        margin: 5px;
+        display: inline;           
+}
+
+#contenedor{
+
+        display: flex;
+        
+}
+
+#contenedor #Informacion1{
+        margin-top: 40px;
+        margin-left: 5%;
+        margin-right:5%;
+        height: auto;
+        background-color: #E9EDC9;
+        border-radius: 20px;
+        padding-right: 650px;                   
+}
+
+#contenedor #Informacion1 #infopersonal{       
+        text-align: center;
+        font-size: xx-large;
+        border-bottom: 2px black dashed;
+        font-weight: bolder;        
+}
+
+#contenedor #Informacion1 #datos{
+        font-size: large;
+        font-weight: bold;
+        margin: 5px;
+        display: inline;
+}
+
+#contenedor #Informacion2{
+        background-color: #E9EDC9;
+        margin-top: 2%;
+        margin-right: 90px;       
+        padding-right: 600px;
+        border-radius: 20px;
+        padding-bottom: 40px;               
+}
+
+#contenedor #Informacion2 #infopersonal{  
+        display: flex;           
+        font-size: xx-large;
+        border-bottom: 2px black dashed;
+        font-weight: bolder;
+        padding: -40px;
+}
+
+#contenedor #Informacion2 #datos{
+        font-size: large;
+        font-weight: bold;
+        margin: 5px;
+        display: inline;  
+}
+
+.ocultar{
+
+        display: none;
+
+}
+
+.mostrar{
+
+        display: block;
+
+}
+
+.mostrarinfo{
+        background-color: #C8F9CE;
+        border-radius: 20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
